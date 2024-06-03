@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trash Collection and Sales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <header>
+        <div class="container">
+            <h1>Trash Collection & Sales</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#acceptable-items">Acceptable Items</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to Our Trash Collection & Sales Website</h2>
+            <p>We provide efficient trash collection services and offer a variety of items for sale. Help keep the environment clean and find hidden treasures!</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <img src="https://www.shutterstock.com/image-vector/janitor-loading-recycling-container-litter-260nw-1936080592.jpg" alt="Trash Collection">
+                <a href="index1.html"<h3>Trash Collection</h3></a>
+                <p>We offer regular trash collection services for households and businesses. Schedule your collection today!</p>
+            </div>
+            <div class="service">
+                <img src="https://img.freepik.com/premium-vector/vector-set-recycle-garbage_60352-745.jpg" alt="Trash Sales">
+                <h3>Trash Sales</h3>
+                <p>Browse our collection of reusable items and materials. Find unique items at affordable prices.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="acceptable-items">
+        <div class="container">
+            <h2>Acceptable Items</h2>
+            <div class="items">
+                <div>
+                    <h3>Biodegradable</h3>
+                    <ul>
+                        <li>Food waste</li>
+                        <li>Paper</li>
+                        <li>Wood</li>
+                        <li>Yard waste</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Non-Biodegradable</h3>
+                    <ul>
+                        <li>Plastic</li>
+                        <li>Glass</li>
+                        <li>Metal</li>
+                        <li>Electronics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"Excellent service! Our trash is collected on time every week."</p>
+                <cite>- Jane Doe</cite>
+            </div>
+            <div class="testimonial">
+                <p>"I found some great items for my garden at a very reasonable price."</p>
+                <cite>- John Smith</cite>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="/submit_form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="waste-type">Type of Waste:</label>
+                <input type="text" id="waste-type" name="waste_type" required>
+                
+                <label for="collection-date">Collection Date:</label>
+                <input type="date" id="collection-date" name="collection_date" required>
+                
+                <label for="collection-time">Collection Time:</label>
+                <input type="time" id="collection-time" name="collection_time" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Trash Collection & Sales. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
