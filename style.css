@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background: #333;
+    background: #4CAF50;
     color: #fff;
     padding: 10px 0;
 }
@@ -79,6 +79,20 @@ section {
     border-radius: 5px;
 }
 
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 1rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
 .testimonial {
     background: #fff;
     padding: 15px;
@@ -99,7 +113,7 @@ section {
 }
 
 #contact {
-    background: #f4f4f4;
+    background: #4CAF50;
 }
 
 form {
