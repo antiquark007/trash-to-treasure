@@ -9,7 +9,7 @@ header {
     background-color: #4CAF50;
     color: white;
     padding: 1rem;
-    text-align: center;
+    text-align: auto;
 }
 
 header h1 {
@@ -42,6 +42,8 @@ main {
 }
 
 .item img {
+    padding-top: 5px;
+    padding-left: 5px;
     max-width: 100%;
     border-radius: 8px;
 }
