@@ -2,6 +2,29 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background: linear-gradient(135deg, #e4e7e8, #67d661);
+}
+.logo {
+    max-width: 100px; 
+    margin-right: 10px; 
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-title {
+    flex-grow: 1;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin-left: 10px;
 }
 header {
     background: #4CAF50;
@@ -91,6 +114,7 @@ button:hover {
 
 #contact {
     background: #c8ecc8;
+    text-align: center;
 }
 
 form {
@@ -132,80 +156,6 @@ footer {
     margin-right: 50px;
     display: block;
 }
-    .grid-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        gap: 10px;
-        
-        padding: 10px;
-    }
-    .grid-item {
-        
-        padding: 20px;
-        font-size: 20px;
-        text-align: center;
-    }
-    h1 {
-        font-size: 40px;
-        margin-bottom: 20px;
-    
-    }
-    .contact {
-        background: #e5ebe5;
-        padding: 20px;
-    }
-    form label {
-        display: inline;
-        margin-top: 10px;
-    }
-    form input, form textarea {
-        width: 100%;
-        padding: 10px;
-        margin-top: 5px;
-        box-sizing: border-box;
-    }
-    form button {
-        margin-top: 20px;
-        padding: 10px 20px;
-        background-color: #2cad2c;
-        color: white;
-        border: none;
-        cursor: pointer;
-    }
-    form button:hover {
-        background-color: #e4ece5;
-    }
-    .ct{
-        font-size: 50px;
-        margin-left: 0px;
-        margin-right: 40px;
-        padding-left: 50px;
-    }
-    .service {
-        background: white;
-        border-radius: 16px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        padding: 20px;
-        text-align: center;
-        transition: transform 0.3s, box-shadow 0.3s;
-        aspect-ratio: 1;
-    }
-    
-    .service:hover {
-        transform: translateY(-10px);
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    }
-    
-    .service h2 {
-        color: #333;
-        margin-bottom: 10px;
-    }
-    
-    .service p {
-        color: #666;
-        line-height: 1.5;
-    }
     /*from here the square of 2*2*/
 
 .container {
