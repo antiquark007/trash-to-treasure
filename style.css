@@ -4,6 +4,9 @@ body {
     padding: 0;
     background: linear-gradient(135deg, #e4e7e8, #67d661);
 }
+title{
+    text-align:left;
+}    
 .logo {
     max-width: 100px; 
     margin-right: 10px; 
@@ -59,10 +62,14 @@ section {
 
 #home {
     background: #f4f4f4;
+    margin-left: 10p;
 }
 
 #acceptable-items {
     background: #f4f4f4;
+    margin: 80px;
+    padding: 80px;
+    border-radius: 50px;
 }
 
 #testimonials {
@@ -146,11 +153,12 @@ form button:hover {
     background: #555;
 }
 
-footer {
+.a{
     background: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
+    align-items: center;
 }
 .title{
     margin-right: 50px;
@@ -170,9 +178,9 @@ footer {
 
 .block {
     background: white;
-    border-radius: 16px;
+    border-radius: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -184,7 +192,7 @@ footer {
 
 .block h2 {
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .block p {
@@ -197,7 +205,15 @@ footer {
         grid-template-columns: 1fr;
     }
 }
-
+.center{
+    background-color: white;
+    margin: 50px;
+    padding: 50px;
+    text-align:left;
+    font-size: 17px;
+    border-radius: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .service {
     display: flex;
     flex-direction: column;
@@ -260,4 +276,75 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+/* added testom */
+
+h1 {
+	margin-top: 5rem;
+	text-align: center;
+}
+
+/* This class is defining the styling for a grid container. */
+.testimonial-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	gap: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+    
+}
+
+/* This class is defining the styling for the container element that holds each
+testimonial in a testimonial grid. */
+.testimonial-container {
+	background-color: #ffffff;
+	border-radius: 12px;
+	padding: 30px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+/* This class is defining the styling for the avatar image */
+.testimonial-avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin: 0 auto 20px;
+}
+
+.testimonial-avatar img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.testimonial-text {
+	margin-bottom: 20px;
+}
+
+.testimonial-name {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	color: #333333;
+}
+
+.testimonial-role {
+	font-size: 16px;
+	color: #666666;
+}
+
+/* This media query in CSS that targets screens with a maximum width of 600 pixels. */
+@media screen and (max-width: 600px) {
+	.testimonial-grid {
+		grid-template-columns: 1fr;
+	}
+}
+.shl{
+    margin-left: 669px;
+    padding-left: 10px ;
+    text-align: center;
 }
