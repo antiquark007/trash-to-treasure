@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Industry Registration</title>
+    <title>Contact Us</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Raleway:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="industry.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
     <header class="header">
-        <h1 class="header-title">Industry Registration</h1>
+        <h1 class="header-title">Contact Us</h1>
     </header>
     <div class="container">
         <div class="info-section">
             <div class="contact-info">
-                <p class="contact-item"><span>Email:</span> t2t@gmail.com</p>
-                <p class="contact-item"><span>Phone:</span> +1 234 567 8901</p>
-                <p class="contact-item"><span>Address:</span> Kumaraswamy Layout</p>
+                <p class="contact-item"><span class="icon"><i class="fa fa-envelope"></i></span> <span class="label">Email:</span> t2t@gmail.com</p>
+                <p class="contact-item"><span class="icon"><i class="fa fa-phone"></i></span> <span class="label">Phone:</span> +1 234 567 8901</p>
+                <p class="contact-item"><span class="icon"><i class="fa fa-map-marker-alt"></i></span> <span class="label">Address:</span> Kumaraswamy Layout</p>
             </div>
             <h2>Find Us Here:</h2>
             <div class="map-container">
@@ -24,9 +24,10 @@
             </div>
         </div>
         <div class="form-section">
+            <h1 class="form-title">Waste Collection Request Form</h1>
             <form action="/submit" method="post">
                 <div class="form-group">
-                    <label for="name">Company Name:</label>
+                    <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required>
                 </div>
                 <div class="form-group">
@@ -38,12 +39,16 @@
                     <select id="type" name="type" required>
                         <option value="recyclable">Recyclable</option>
                         <option value="non-recyclable">Non-recyclable</option>
-                        <option value="electronics">Electronics</option>
+                        <option value="hazardous">Hazardous</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label for="date">Collection Date:</label>
                     <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Collection Time:</label>
+                    <input type="time" id="time" name="time" required>
                 </div>
                 <div class="form-group">
                     <label for="message">Message:</label>
